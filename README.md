@@ -38,7 +38,11 @@ Step 9
 Run Application class
 
 Step 10
-Browse : http://127.0.0.1:8080/
+Browse:
+http://127.0.0.1:8080/
+http://127.0.0.1:8080/again
+http://127.0.0.1:8080/json
+http://127.0.0.1:8080/user/Pietjepuk
 
 Build and run from command line:
 
