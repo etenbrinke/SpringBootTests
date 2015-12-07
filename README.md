@@ -42,16 +42,16 @@ Run Application class
 
 Step 10
 Browse:
+```
 http://127.0.0.1:8080/
-
 http://127.0.0.1:8080/again
-
 http://127.0.0.1:8080/json
-
 http://127.0.0.1:8080/user/Pietjepuk
+```
 
 Build and run from command line:
 
+```
 > setjdk 1.8 (in my case Project is using jdk 1.8)
 > cd ~/IdeaProjects/SpringBootTests/
 > mvn
@@ -62,9 +62,11 @@ Build and run from command line:
 > java -jar target/myfirstservice-0.1.0.jar
 > curl localhost:8080
 Greetings from Spring Boot!
+```
 
 Find your service if you want to kill it :
+```
 > lsof -i tcp:8080
 COMMAND   PID       USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 java    75464 etenbrinke   70u  IPv6 0x3794ce8b998ffbb7      0t0  TCP *:http-alt (LISTEN)
-
+```
