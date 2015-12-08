@@ -3,7 +3,7 @@ package MyFirstService;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by etenbrinke on 04/12/15.
+ * Created by etenbrinke on 07/12/15.
  */
 @Service
 public class TestService {
@@ -17,4 +17,3 @@ public class TestService {
     }
 
 }
-

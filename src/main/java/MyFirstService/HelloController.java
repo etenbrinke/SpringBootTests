@@ -40,6 +40,4 @@ public class HelloController {
         return "Hello user " + person.getName();
     }
 
-
-
 }
