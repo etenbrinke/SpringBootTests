@@ -54,7 +54,6 @@ Build and run from command line:
 ```
 > setjdk 1.8 (in my case Project is using jdk 1.8)
 > cd ~/IdeaProjects/SpringBootTests/
-> mvn
 > mvn clean
 > mvn compile
 > mvn test
